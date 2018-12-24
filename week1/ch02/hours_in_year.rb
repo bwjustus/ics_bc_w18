@@ -4,4 +4,6 @@
 # ... Seriously though, Googling things is highly underrated.
 
 
-### Your Code Here ###
+reg = 24*365
+leap = 24*366
+puts 'There are ' + reg.to_s + ' hours in a year, unless its a leap year. Then there are ' + leap.to_s + ' hours in a year.'

@@ -4,4 +4,5 @@
 # And don't forget to take leap years into account!
 
 
-### Your Code Here ###
+age = 60*60*24*(365*114+366*36+280)
+puts 'At the beginning of Friday, December 28, UC Berkeley will be ' + age.to_s + ' seconds old.'
