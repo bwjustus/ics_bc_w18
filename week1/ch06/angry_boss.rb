@@ -3,4 +3,6 @@
 #  - Repeat what you asked back to you (but yelling) and fire you
 
 
-### Your Code Here ###
+puts 'WHAT DO YOU WANT?!?!'
+answer = gets.chomp
+puts 'HOW DARE YOU! WHAT DO YOU MEAN "' + answer.upcase + '"?? YOU\'RE FIRED!!'
