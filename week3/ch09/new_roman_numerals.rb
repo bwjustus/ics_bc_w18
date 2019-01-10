@@ -1,4 +1,4 @@
-def romanize num
+def romanize_new num
   i_len = 0
   int4_len = 0
   v_len = 0
@@ -69,4 +69,4 @@ def romanize num
 end
 
 puts "Enter a number to change to new roman numerals."
-romanize gets.chomp.to_i
+romanize_new gets.chomp.to_i
